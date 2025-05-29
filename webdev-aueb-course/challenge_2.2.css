@@ -1,0 +1,21 @@
+
+abbr{
+    color: red;
+}
+form{
+width: 350px;
+}
+
+input{
+width:auto;
+
+}
+
+ul > li{
+    text-align: start;
+    list-style-type: none;
+
+}
+ul{
+    padding: 0;
+}

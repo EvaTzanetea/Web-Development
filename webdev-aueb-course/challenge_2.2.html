@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="challenge_2.2.css">
+</head>
+<body>
+    <form>
+        <h1>Φόρμα Πληρωμής</h1>
+        <p>Τα υποχρεωτικά πεδία ακολουθούνται από <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+            <h2>Προσωπικά Στοιχεία</h2>
+            <fieldset >
+                <legend>Title</legend>
+                <ul>
+                    <li>
+                        <label for="title1"><input type="radio" id="title1" name="title" value="Mr">Mr.</label>
+                    </li>
+                    <li>
+                        <label for="title2"><input type="radio" id="title2" name="title" value="Mrs">Mrs</label> 
+                    </li>
+                    <li>
+                        <label for="title3"><input type="radio" id="title3" name="title" value="Dr">Dr</label> 
+                    </li>
+                </ul>
+            </fieldset>
+            <p>
+                <label for="name">name</label>
+                                    <strong> <abbr title="required">*</abbr></strong>
+                <input type="text" id="name" name="username">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                                    <strong> <abbr title="required">*</abbr></strong>
+                <input type="email" id="email" name="usermail">
+            </p>
+            <p>
+                <label for="pwd">Password</label>
+                                    <strong> <abbr title="required">*</abbr></strong>
+                <input type="password" id="pwd" name="password">
+            </p>
+        </section>
+        <section>
+            <h2>Πληροφορίες Πληρωμής</h2>
+            <p class="formlabel">
+                <label for="card">Card type</label>
+                <select id="card" name="usercard">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Master card</option>
+                    <option value="amex">American Express</option>
+                </select>
+            </p>
+            <p class="formlabel">
+                <label for="cardNumber">Card Number</label>
+                <strong> <abbr title="required">*</abbr></strong>
+                <input type="tel" id="cardNumber" name="cardNumber">
+            </p>
+            <p class="formlabel">
+                <label for="expiration">Expiration date</label>
+                <strong> <abbr title="required">*</abbr></strong>
+                <input type="date" id="expiration" name="expiration">
+            </p>
+        </section>
+        <section>
+            <p>
+                <button type="submit">Προχωρήστε στην πληρωμή</button>
+            </p>
+        </section>
+
+
+
+
+
+
+</form>
+</body>
+</html>

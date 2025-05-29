@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+}
+
+.form{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+}
+
+.form > label{
+    padding-top: 20px;
+
+}
